@@ -1,11 +1,13 @@
 # PyperGrabber
 Fetches PubMed article IDs (PMIDs) from email inbox, then crawls PubMed, Google Scholar and Sci-Hub for respective PDF files.
 
-PubMed can send you regular update on new articles matching your specified search criteria.
 
-PyperGrabber will automatically download thoe papers, saving you much time tracking on downloading those manually.
+PubMed can send you regular update on new articles matching your specified search criteria. PyperGrabber will automatically download thoe papers, saving you much time tracking on downloading those manually. When no PDF article is found PyperGrabber will save the PubMed abstract of the respective article to PDF. All files are named after PMID for convenience.
 
 Required dependencies:
+sudo apt-get install wkhtmltopdf
+
+sudo pip install pypdf
 
 
 
