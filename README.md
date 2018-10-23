@@ -13,9 +13,8 @@ PubMed can send you regular update on new articles matching your specified searc
 
 ## Required dependencies:
     sudo apt-get install wkhtmltopdf
-
     sudo pip install pypdf
 
 ## USAGE:
-- put in your email access data into congig.ini or prepare to be prompted (works with IMAP)
-- start with: python ./PyperGrabber.py
+- **Step 1** - Put in your email access data into `config.ini` or prepare to be prompted (works with IMAP)
+- **Step 2** - Start with: `python ./PyperGrabber.py`
